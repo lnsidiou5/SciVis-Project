@@ -1,0 +1,95 @@
+# Binaries I dont think we will have any of these but just in case
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+server
+
+# =========================
+# Python
+# =========================
+pycache/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+
+venv/
+.env/
+.envrc
+.venv/
+ENV/
+env/
+
+# =========================
+# Jupyter Notebooks
+# =========================
+
+.ipynb_checkpoints/
+
+# If you don’t want output cells tracked (optional — remove if you DO want outputs saved)
+# Uncomment the next line if using nbstripout or similar
+*.ipynb
+# =========================
+# macOS / Preview Files
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+
+# =========================
+# Data Files (Large / Generated)
+# =========================
+# Raw datasets (adjust as needed)
+
+data/
+*.csv
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.nc
+*.zarr
+*.vtk
+*.vti
+*.vtu
+
+# =========================
+# Visualization Outputs
+# =========================
+# if we have any visualization outputs we want to ignore
+
+# =========================
+# Logs
+# =========================
+
+*.log
+
+# =========================
+# IDE Settings
+# =========================
+
+.vscode/
+.idea/
+
+# =========================
+# Build / Distribution
+# =========================
+
+build/
+dist/
+*.egg-info/
+
+# =========================
+# Misc
+# =========================
+
+*.swp
+*~
