@@ -31,7 +31,7 @@ env/
 
 # If you don’t want output cells tracked (optional — remove if you DO want outputs saved)
 # Uncomment the next line if using nbstripout or similar
-*.ipynb
+#*.ipynb
 # =========================
 # macOS / Preview Files
 # =========================
@@ -92,4 +92,4 @@ dist/
 # =========================
 
 *.swp
-*~
+/velocity_vtk
